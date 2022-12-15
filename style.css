@@ -1,0 +1,65 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  color: #3d3d3d;
+}
+
+h1 {
+  text-align: center;
+  color: #002fff;
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+  color: #777777;
+}
+
+p {
+  text-align: center;
+}
+video {
+  display: block;
+}
+
+section {
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+}
+.removed {
+  display: none;
+}
+
+.invisible {
+  opacity: 0.2;
+}
+
+#webcamButton {
+  width: 150px;
+  height: 50px;
+  margin-left: 245px;
+}
+
+.camView {
+  position: relative;
+  width: 640px;
+  height: 480px;
+  margin: auto;
+}
+
+.camView p {
+  position: absolute;
+  padding: 5px;
+  border: 3px solid rgb(0, 255, 0);
+  background-color: rgba(0, 255, 0);
+  color: rgb(0, 0, 0);
+  z-index: 2;
+  font-size: 20px;
+}
+
+.highlighter {
+  background: rgba(0, 255, 0, 0.25);
+  border: 3px solid rgb(0, 255, 0);
+  z-index: 1;
+  position: absolute;
+}
